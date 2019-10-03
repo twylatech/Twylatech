@@ -1,0 +1,86 @@
+		
+		@media only screen and (max-width: 1000px){
+		
+					.header_bottom {
+			background-color: #ffffff;
+			}
+						
+					.subtitle{
+			font-size: 15.2px;
+			}
+				
+																		
+					.filter_outer.filter_portfolio{
+			line-height: 2em;
+			}
+				}
+		
+		@media only screen and (min-width: 480px) and (max-width: 768px){
+		
+				}
+		
+		@media only screen and (min-width: 600px) and (max-width: 768px){
+					.title h1,
+			.title h1.title_like_separator .vc_text_separator.full .separator_content,
+			.title.title_size_large h1,
+			.title.title_size_large h1.title_like_separator .vc_text_separator.full .separator_content{
+			font-size:40.6px;
+			}
+							.title h1,
+			.title h1.title_like_separator .vc_text_separator.full .separator_content,
+			.title.title_size_large h1,
+			.title.title_size_large h1.title_like_separator .vc_text_separator.full .separator_content{
+			line-height: 1.3em;
+			}
+																				
+					.subtitle{
+			font-size: 15.2px;
+			}
+				}
+		
+		@media only screen and (min-width: 480px) and (max-width: 768px){
+					section.parallax_section_holder{
+			height: auto !important;
+			min-height: 125pxpx !important;
+			}
+				
+				}
+		
+		@media only screen and (max-width: 600px){
+					.title h1,
+			.title h1.title_like_separator .vc_text_separator.full .separator_content,
+			.title.title_size_large h1,
+			.title.title_size_large h1.title_like_separator .vc_text_separator.full .separator_content{
+			font-size:34.8px;
+			}
+							.title h1,
+			.title h1.title_like_separator .vc_text_separator.full .separator_content,
+			.title.title_size_large h1,
+			.title.title_size_large h1.title_like_separator .vc_text_separator.full .separator_content{
+			line-height: 1.3em;
+			}
+																						
+					.filter_outer.filter_portfolio{
+			height:auto;
+			}
+				}
+		
+		@media only screen and (max-width: 480px){
+		
+					.title h1,
+			.title h1.title_like_separator .vc_text_separator.full .separator_content,
+			.title.title_size_large h1,
+			.title.title_size_large h1.title_like_separator .vc_text_separator.full .separator_content{
+			font-size:29px;
+			}
+																				
+					section.parallax_section_holder{
+			height: auto !important;
+			min-height: 125pxpx !important;
+			}
+				
+		
+				
+				}
+		
+		

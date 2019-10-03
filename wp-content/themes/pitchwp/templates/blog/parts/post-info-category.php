@@ -1,0 +1,1 @@
+<div class="post_category"><?php esc_html_e('In ','pitch'); ?><?php the_category(', '); ?></div>

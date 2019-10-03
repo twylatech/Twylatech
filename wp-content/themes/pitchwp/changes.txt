@@ -1,0 +1,153 @@
+3.0.5
+- Updated WPBakery Page Builder to 6.0.2
+- Updated Pitch Child Theme to 1.2
+- Fixed child theme
+
+3.0.4
+- Updated WPBakery Page Builder to 6.0.1
+
+3.0.3
+- Updated Layer Slider to 6.8.4
+- Fixed minor bugs
+
+3.0.2
+- Updated Layer Slider to 6.8.3
+- Improved theme security
+- Fixed post format dependency for Gutenberg editor
+- Fixed sidebar layout for WooCommerce archive pages
+
+3.0.1
+- Updated Select Core plugin to 1.3.1
+- Updated Pitch Child Theme to 1.1.1
+- Updated select-core.pot language file
+- Fixed child theme inclusion
+
+3.0
+- Added WordPress 5.x compatibility
+- Added WooCommerce 3.6.1 compatibility
+- Updated Select Core plugin to 1.3
+- Updated Select Twitter Feed plugin to 1.0.3
+- Updated Pitch Child Theme to 1.1
+- Updated Layer Slider to 6.8.2
+- Updated WPBakery Page Builder to 5.7
+- Updated pitch.pot and select-core.pot languages files
+- Improved theme templates, modules and functions
+- Improved theme security
+- Escaped all variables, text domains etc.
+- Renamed all functions, hooks, templates with unique name
+- Removed unnecessary functions, variables etc.
+- Removed custom_css.php and custom_js.php files and improved logic to add custom code as inline
+- Fixed theme text domain
+- Fixed bugs
+
+2.3
+- Added WooCommerce 3.4.5 compatibility
+- Added compatibility with Gutenberg plugin
+- Added pot file for Select Core plugin
+- Updated WPBakery Page Builder to 5.5.2
+- Updated LayerSlider to 6.7.6
+- Updated Envato Market to 2.0.1
+- Updated Select Core to 1.3
+- Updated Select Twitter Feed to 1.0.2
+- Fixed issue with http/https links
+- Fixed invalid content in pot file
+
+2.2
+- Added compatibility with PHP 7.2 
+- Updated Visual Composer to 5.4.7
+- Updated Layer slider to version 6.7.1
+- Updated Envato Market to 2.0.0
+
+2.1
+- Added WooCommerce 3.2.6 compatibility
+- Updated Layer slider to version 6.6.7
+- Fixed loading styles when WooCommerce is activated
+- Fixed portfolio https problem with links
+- Fixed deprecated create_function
+
+2.0
+- Added WooCommerce 3.5.2 compatibility
+- Updated Visual Composer to 5.4.5
+- Updated Layer slider to version 6.6.4
+- Added Envato Market plugin as required
+- Added recommended plugins (WooCommerce and Contact Form 7)
+- Improved menu import functionality
+- Fixed potential security issue when saving theme options
+- Fixed Portfolio navigation through same category not working
+- Improved single.php on smaller screens
+
+1.9
+- Added WooCommerce 3+ compatibility
+- Updated Visual Composer to 5.1.1
+- Updated Layer slider to version 6.4.0
+- Fixed https problem with links
+- Fixed overlapping issue with parallax on Mac (Chrome browser)
+- Fixed thumbnail for portfolio pagination thorough the same category
+
+1.8
+- Added WooCommerce 2.6.9 compatibility
+- Updated Visual Composer to version 5.0.1
+- Updated Layer Slider to version 6.1.0
+- Updated Font Awesome to version 4.7.0
+- Updated TGM Plugin Activation to 2.6.1
+
+1.7
+- Added WooCommerce 2.6.8 compatibility
+- Updated Visual Composer to version 5.0
+- Updated Layer Slider to version 6.0.5
+- Updated Select Core plugin to 1.2
+- Fixed custom links functionality in image gallery shortcode
+- Fixed applying the scripts in certain conditionals
+
+1.6
+- Added WordPress 4.6.1 compatibility
+- Added WooCommerce 2.6.4 compatibility
+- Added option for Google maps api key in Select General
+- Updated Visual Composer to 4.12.1
+- Updated Layer Slider to version 5.6.9
+- Updated Font Awesome to version 4.6.3
+- Fixed bug with gallery image grid and prettyphoto navigation
+
+1.5
+- Added Woocommerce 2.6.1 compatibility
+- Added pot language file
+- Updated Visual Composer to version 4.12
+- Updated Layer Slider to version 5.6.8
+- Fixed Social Share functionality
+- Fixed bug with Contact Form 7 and Vertical Split Slider
+
+1.4.1
+- Updated Visual Composer to version 4.11.2.1
+- Updated Layer Slider to version 5.6.6
+
+1.4
+- Added  Wordpress 4.5 compatibility
+- Updated Visual Composer to 4.11.1
+
+1.3
+- Added Woocommerce 2.5.0 compatibility
+- Updated Visual Composer to version 4.9.2
+- Fixed bug with Re-connect Instagram field missing in Select Options
+
+1.2
+- Added Woocommerce 2.4.12 compatibility
+- Added performance improvements
+- Updated Visual Composer to version 4.9.1
+- Updated Select Core plugin to version 1.1
+- Updated Select Twitter Feed plugin to version 1.0.1
+- Fixed bug with portfolio single "back to" link display
+- Fixed portfolio single responsive
+- Fixed portfolio list upward animation not using color from options
+- Fixed bug with shortcodes translatable labels.
+- Fixed spacing issue causing 404 error in WP admin
+- Fixed Google Map Warning for Sensor parameter no longer being required
+- Fixed tabs shortcode in Safari
+
+1.1
+- Updated Visual Composer to version 4.8
+- Fixed Select Twitter Feed plugin redirection
+- Fixed Portfolio Gallery
+- Fixed Portfolio Gallery Right
+- Fixed Portfolio Masonry Gallery Top
+- Fixed Portfolio Masonry Gallery Bottom
+- Fixed Portfolio Masonry Gallery Right

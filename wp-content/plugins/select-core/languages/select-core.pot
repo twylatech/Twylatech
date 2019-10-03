@@ -1,0 +1,2133 @@
+# Copyright (C) 2019 Select Themes
+# This file is distributed under the same license as the Select Core plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Select Core 1.3.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/select-core\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2019-04-25T10:26:05+02:00\n"
+"PO-Revision-Date: 2019-04-25T10:26:05+02:00\n"
+"X-Generator: WP-CLI 2.0.1\n"
+"X-Domain: select-core\n"
+
+#. Plugin Name of the plugin
+msgid "Select Core"
+msgstr ""
+
+#. Description of the plugin
+msgid "Plugin that adds all post types needed by our theme"
+msgstr ""
+
+#. Author of the plugin
+msgid "Select Themes"
+msgstr ""
+
+#: \modules\helper.php:99
+msgid "Facebook"
+msgstr ""
+
+#: \modules\helper.php:100
+msgid "Twitter"
+msgstr ""
+
+#: \modules\helper.php:101
+msgid "Instagram"
+msgstr ""
+
+#: \modules\helper.php:102
+msgid "Dribbble"
+msgstr ""
+
+#: \modules\helper.php:103
+msgid "LinkedIn"
+msgstr ""
+
+#: \modules\helper.php:115
+msgid "Masonry Size"
+msgstr ""
+
+#: \modules\helper.php:120
+msgid "Enter 'large' (twice the size of default image) or 'huge' (three times the size of default image) for Masonry Gallery templates on Portfolio Single Pages."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:135
+#: \modules\import\class.wordpress-importer.php:186
+#: \modules\import\class.wordpress-importer.php:190
+#: \modules\import\class.wordpress-importer.php:199
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:170
+msgid "All done."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:170
+msgid "Have fun!"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:171
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:191
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:207
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:232
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:258
+msgid "Assign Authors"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:259
+msgid "To make it easier for you to edit and save the imported content, you may want to reassign the author of the imported item to an existing user of this site. For example, you may want to import all the entries as <code>admin</code>s entries."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:261
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:271
+msgid "Import Attachments"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:274
+msgid "Download and import file attachments"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:278
+msgid "Submit"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:291
+msgid "Import author:"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:302
+msgid "or create new user with login name:"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:305
+msgid "as a new user:"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:313
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:315
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:316
+msgid "- Select -"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:366
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:418
+msgid "Failed to import category %s"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:462
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:512
+#: \modules\import\class.wordpress-importer.php:736
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:602
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:639
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:701
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:867
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:874
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:937
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:950
+msgid "Invalid file type"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:994
+msgid "Remote server did not respond"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:1000
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:1007
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:1012
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:1018
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:1119
+msgid "Import WordPress"
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:1126
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:1141
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr ""
+
+#: \modules\import\class.wordpress-importer.php:1142
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: \modules\import\parsers.php:42
+#: \modules\import\parsers.php:78
+#: \modules\import\parsers.php:86
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: \modules\import\parsers.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr ""
+
+#: \modules\import\parsers.php:90
+#: \modules\import\parsers.php:95
+#: \modules\import\parsers.php:285
+#: \modules\import\parsers.php:474
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: \modules\import\qode-import.php:33
+msgid "An Error Occurred During Import"
+msgstr ""
+
+#: \modules\import\qode-import.php:35
+msgid "Content imported successfully"
+msgstr ""
+
+#: \modules\import\qode-import.php:47
+msgid "Widgets imported successfully"
+msgstr ""
+
+#: \modules\import\qode-import.php:66
+msgid "Custom sidebars imported successfully"
+msgstr ""
+
+#: \modules\import\qode-import.php:72
+msgid "Options imported successfully"
+msgstr ""
+
+#: \modules\import\qode-import.php:178
+msgid "Select Options - Select Import"
+msgstr ""
+
+#: \modules\import\qode-import.php:179
+msgid "Import"
+msgstr ""
+
+#: \modules\instagram\qode-instagram-api.php:231
+msgid "Can't connect with Instagram"
+msgstr ""
+
+#: \modules\instagram\qode-instagram-api.php:251
+msgid "Success"
+msgstr ""
+
+#: \modules\instagram\qode-instagram-api.php:267
+msgid "User has'nt connected with Instagram"
+msgstr ""
+
+#: \modules\instagram\qode-instagram-api.php:285
+msgid "Can\\t connect with Instagram API"
+msgstr ""
+
+#: \modules\instagram\qode-instagram-api.php:300
+msgid "Can\\t get Instagram access token"
+msgstr ""
+
+#: \modules\instagram\qode-instagram-api.php:307
+msgid "Stored access token"
+msgstr ""
+
+#: \modules\instagram\qode-instagram-api.php:353
+msgid "Couldn't disconnect from Instagram"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:52
+#: \modules\post-types\carousels\carousel-register.php:53
+msgid "Select Carousel"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:54
+msgid "Carousel Items"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:55
+#: \modules\post-types\carousels\carousel-register.php:58
+msgid "Add New Carousel Item"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:56
+msgid "Carousel Item"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:57
+msgid "New Carousel Item"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:59
+msgid "Edit Carousel Item"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:81
+msgid "Search Carousels"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:82
+msgid "All Carousels"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:83
+msgid "Parent Carousel"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:84
+msgid "Parent Carousel:"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:85
+msgid "Edit Carousel"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:86
+msgid "Update Carousel"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:87
+msgid "Add New Carousel"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:88
+msgid "New Carousel Name"
+msgstr ""
+
+#: \modules\post-types\carousels\carousel-register.php:89
+msgid "Carousels"
+msgstr ""
+
+#: \modules\post-types\carousels\shortcodes\carousel.php:358
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:322
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:1784
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:2105
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:955
+#: \modules\post-types\slider\shortcodes\slider.php:2124
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:1066
+#: \modules\shortcodes\shortcodes.php:8459
+#: \modules\shortcodes\shortcodes.php:8721
+msgid "Sorry, no posts matched your criteria."
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:50
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:47
+msgid "Masonry Gallery"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:51
+msgid "Masonry Gallery Items"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:52
+msgid "Masonry Gallery Item"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:53
+msgid "New Masonry Gallery Item"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:54
+msgid "Add New Masonry Gallery Item"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:55
+msgid "Edit Masonry Gallery Item"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:76
+msgid "Search Masonry Gallery Categories"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:77
+msgid "All Masonry Gallery Categories"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:78
+msgid "Parent Masonry Gallery Category"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:79
+msgid "Parent Masonry Gallery Category:"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:80
+msgid "Edit Masonry Gallery Category"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:81
+msgid "Update Masonry Gallery Category"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:82
+msgid "Add New Masonry Gallery Category"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:83
+msgid "New Masonry Gallery Category Name"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\masonry-gallery-register.php:84
+msgid "Masonry Gallery Categories"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:49
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:43
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:41
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:44
+msgid "by Select"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:57
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:286
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:67
+msgid "Category"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:60
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:289
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:70
+msgid "Category Slug (leave empty for all)"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:66
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:262
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:76
+msgid "Number"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:69
+msgid "Number of Masonry Gallery Items"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:75
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:545
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:250
+msgid "Order"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:78
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:550
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:255
+msgid "DESC"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:79
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:549
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:254
+msgid "ASC"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:86
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:90
+msgid "Parallax Item Speed"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:89
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:93
+msgid "This option only takes effect on portfolio items on which Set Masonry Item in Parallax is set to Yes, default value is 0.3"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:95
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:100
+msgid "Parallax Item Offset"
+msgstr ""
+
+#: \modules\post-types\masonry-gallery\shortcodes\masonry-gallery.php:98
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:103
+msgid "This option only takes effect on portfolio items on which Set Masonry Item in Parallax is set to Yes, default value is 0"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:75
+msgid "Portfolio"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:76
+msgid "Portfolio Item"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:77
+msgid "New Portfolio Item"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:78
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:79
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:99
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:100
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:101
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:102
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:103
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:104
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:105
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:106
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:107
+msgid "Portfolio Categories"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:126
+msgid "Search Portfolio Tags"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:127
+msgid "All Portfolio Tags"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:128
+msgid "Parent Portfolio Tag"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:129
+msgid "Parent Portfolio Tags:"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:130
+msgid "Edit Portfolio Tag"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:131
+msgid "Update Portfolio Tag"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:132
+msgid "Add New Portfolio Tag"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:133
+msgid "New Portfolio Tag Name"
+msgstr ""
+
+#: \modules\post-types\portfolio\portfolio-register.php:134
+msgid "Portfolio Tags"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:41
+msgid "Portfolio List"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:51
+msgid "Portfolio List Template"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:54
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:53
+msgid "Standard"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:55
+msgid "Standard No Space"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:56
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:52
+msgid "Text on Image Hover"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:57
+msgid "Text on Image Hover (No Space)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:58
+msgid "Text Initially Over Image"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:59
+msgid "Text Initially Over Image (No Space)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:60
+msgid "Masonry"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:61
+msgid "Pinterest"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:62
+msgid "Pinterest With Image Only "
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:69
+msgid "Padding between portfolio items (px)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:78
+msgid "Masonry space"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:81
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:113
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:215
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:326
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:367
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:562
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:575
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:615
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:656
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:685
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:699
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:713
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:727
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:770
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:784
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:810
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:839
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:851
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:882
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:904
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:106
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:186
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:299
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:311
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:325
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:339
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:353
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:382
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:394
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:425
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:284
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:368
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:426
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:464
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:482
+msgid "No"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:82
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:114
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:216
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:327
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:368
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:561
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:574
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:616
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:655
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:684
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:698
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:712
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:726
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:771
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:783
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:809
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:838
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:850
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:881
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:905
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:107
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:187
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:298
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:310
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:324
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:338
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:352
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:381
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:393
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:424
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:283
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:369
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:425
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:465
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:483
+msgid "Yes"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:110
+msgid "Force full width"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:116
+msgid "This option will disable left and right space on portfolio holder"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:123
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:146
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:171
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:184
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:60
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:80
+msgid "Hover Animation Type"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:126
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:174
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:187
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:63
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:83
+msgid "Gradient"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:127
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:149
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:188
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:64
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:84
+msgid "Upward"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:128
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:150
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:189
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:65
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:85
+msgid "Opposite Corners"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:129
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:151
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:190
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:66
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:86
+msgid "Slide from left"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:130
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:152
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:191
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:67
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:87
+msgid "Subtle Vertical"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:131
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:153
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:68
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:88
+msgid "Image Subtle Rotate Zoom"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:132
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:154
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:69
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:89
+msgid "Image Text Zoom"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:133
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:157
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:198
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:90
+msgid "Text Slides With Image"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:134
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:158
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:199
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:91
+msgid "Thin Plus Only"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:135
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:159
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:200
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:92
+msgid "Icons Bottom Corner"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:136
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:160
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:201
+msgid "Move From Left"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:137
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:161
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:202
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:94
+msgid "Split Up"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:138
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:162
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:203
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:95
+msgid "Circle"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:155
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:196
+msgid "Cursor Change"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:156
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:197
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:72
+msgid "Slide Up"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:163
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:204
+msgid "Animated Border"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:175
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:194
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:70
+msgid "Prominent Plain"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:176
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:195
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:71
+msgid "Prominent Blur"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:192
+msgid "Image Subtle Rotate & Zoom"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:193
+msgid "Image & Text Zoom"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:212
+msgid "Enable Border on Items"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:224
+msgid "Item Border Color"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:233
+msgid "Item Border Width"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:242
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:251
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:260
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:141
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:150
+msgid "Info Box Hover Color"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:269
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:279
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:289
+msgid "Gradient Position Before Hover"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:272
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:282
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:292
+msgid "Enter position pixels or percentages. Ex. 30px or 30%. Default value is 30%."
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:298
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:158
+msgid "Info Box Text Alignment"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:302
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:602
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:670
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:162
+msgid "Left"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:303
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:603
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:669
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:163
+msgid "Center"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:304
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:604
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:671
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:164
+msgid "Right"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:306
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:166
+msgid "Note: Info Box, containing Portfolio Title (and Categories), is placed under Portfolio Image"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:313
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:173
+msgid "Info Box Background Color"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:322
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:182
+msgid "Info Box Border"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:325
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:366
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:477
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:628
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:643
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:668
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:185
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:226
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:242
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:333
+msgid "Default"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:335
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:195
+msgid "Info Box Border Width (px)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:344
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:204
+msgid "Box Border Color"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:353
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:213
+msgid "Info Box Padding"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:356
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:216
+msgid "Set padding for info box in format 0px 5px 15px 5px"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:363
+msgid "Enable Item Shadow"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:376
+msgid "Shadow Vertical Offset (px)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:385
+msgid "Shadow Horizontal Offset (px)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:394
+msgid "Shadow Blur (px)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:403
+msgid "Shadow Spread (px)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:412
+msgid "Shadow Color"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:421
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:114
+msgid "Image Color Overlay"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:430
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:439
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:448
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:123
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:132
+msgid "Cursor Color"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:457
+msgid "Number of Columns"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:474
+msgid "Grid Size"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:478
+msgid "3 Columns Grid"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:479
+msgid "4 Columns Grid"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:480
+msgid "5 Columns Grid"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:482
+msgid "This option is only for Full Width Page Template and Full Width option on row"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:489
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:504
+msgid "Portfolio Loading Type"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:493
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:508
+msgid "Fade - one by one"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:494
+msgid "Slide from top - diagonal"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:495
+msgid "Slide from left - random"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:496
+msgid "Fade - diagonal"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:509
+msgid "Fade - from bottom"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:517
+msgid "Image Proportions"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:520
+msgid "Default Size"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:521
+msgid "Original"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:522
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:228
+msgid "Square"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:523
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:229
+msgid "Landscape"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:524
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:230
+msgid "Portrait"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:532
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:237
+msgid "Order By"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:536
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:241
+msgid "Menu Order"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:537
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:242
+#: \modules\post-types\slider\tax-custom-fields.php:64
+#: \modules\post-types\slider\tax-custom-fields.php:94
+#: \modules\post-types\slider\tax-custom-fields.php:124
+#: \modules\post-types\slider\tax-custom-fields.php:154
+#: \modules\post-types\slider\tax-custom-fields.php:184
+#: \modules\post-types\slider\tax-custom-fields.php:214
+#: \modules\post-types\slider\tax-custom-fields.php:244
+msgid "Title"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:538
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:243
+msgid "Date"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:557
+msgid "Enable Category Filter"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:564
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:907
+msgid "Default value is No"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:570
+msgid "Disable Filter Title"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:577
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:687
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:701
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:853
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:884
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:313
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:327
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:341
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:396
+msgid "Default value is Yes"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:584
+msgid "Filter Order By"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:587
+#: \modules\post-types\slider\tax-custom-fields.php:300
+msgid "Name"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:588
+msgid "Count"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:589
+msgid "Id"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:590
+#: \modules\post-types\slider\tax-custom-fields.php:303
+msgid "Slug"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:592
+msgid "Default value is Name"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:599
+msgid "Horizontal Filter Positioning"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:612
+msgid "Enable Read More Button"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:618
+msgid "Display button with Check it out text linking to portfolio page. This option is available only for Text on Image Hover (No Space) template with Subtle Vertical animation."
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:625
+msgid "Button Size"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:629
+msgid "Small"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:630
+msgid "Medium"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:631
+msgid "Large"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:632
+msgid "Extra Large"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:640
+msgid "Button Style"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:644
+msgid "White"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:652
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:295
+msgid "Enable Icons on Portfolio Image"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:658
+msgid "Note: Icons will always be disabled if you enable Cursor Change, Thin Plus Only and Split Up and Text Slides With Image as Hover Animation"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:665
+msgid "Icons Position"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:673
+msgid "This Option is only available for Icons Bottom Corner, Text Slides With Image and Slow Zoom"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:680
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:306
+msgid "Show Link Icon"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:694
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:320
+msgid "Show Lightbox Icon"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:708
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:334
+msgid "Show Like Icon"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:715
+msgid "Default value is Yes (Disabled on hover type text slides with image)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:722
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:105
+msgid "Show Title"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:733
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:432
+msgid "Title Tag"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:737
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:436
+msgid "h2"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:738
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:437
+msgid "h3"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:739
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:438
+msgid "h4"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:740
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:439
+msgid "h5"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:741
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:440
+msgid "h6"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:749
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:447
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:125
+msgid "Title Color"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:758
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:455
+msgid "Title Font Size (px)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:767
+msgid "Disable Link On Title"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:779
+msgid "Disable Portfolio Image Link"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:786
+msgid "Note: Image link will always be disabled if you enable icons in: Subtle Vertical, Image Subtle Rotate & Zoom, Image & Text Zoom, Slide Up, Circle and Animated Border hover animation type"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:792
+msgid "Portfolio Link Should Point to"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:795
+msgid "Single Portfolio"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:796
+msgid "Lightbox"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:798
+msgid "Default value is Single Portfolio"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:805
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:348
+msgid "Show Separator"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:817
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:360
+msgid "Separator thickness (px)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:825
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:368
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:153
+msgid "Separator Color"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:834
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:377
+msgid "Animate Separator"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:847
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:390
+msgid "Show Category Names"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:859
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:402
+msgid "Category Name Color"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:868
+msgid "One-Category Portfolio List"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:871
+msgid "Enter one category slug (leave empty for showing all categories)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:877
+msgid "Show Load More"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:891
+msgid "Load More Button Margin (px)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:894
+msgid "Please insert top margin for load more button"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:901
+msgid "Show Icon In Button"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:916
+msgid "Icon Size (px)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:925
+msgid "Number of Portfolios Per Page"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:928
+msgid "(enter -1 to show all)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:935
+msgid "Show Only Projects with Listed IDs"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:938
+msgid "Delimit ID numbers by comma (leave empty for all)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:1457
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:1806
+msgid "Sort Portfolio:"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:1460
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:1462
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:1808
+msgid "All"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:1793
+msgid "Show more"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-list.php:1794
+msgid "Loading..."
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:39
+msgid "Portfolio Slider"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:49
+msgid "Portfolio Slider Template"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:93
+msgid "Slow Zoom"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:103
+msgid "Padding between portfolio items"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:117
+msgid "Disabled on Upward Hover"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:223
+msgid "Image size"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:227
+msgid "Original Size"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:265
+msgid "Number of portolios on page (-1 is all)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:271
+msgid "Number of Portfolios Shown"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:280
+msgid "Number of portfolios that are showing at the same time in full width (on smaller screens is responsive so there will be less items shown)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:411
+msgid "Selected Projects"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:414
+msgid "Selected Projects (leave empty for all, delimit by comma)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:420
+msgid "Disable Portfolio Link"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:427
+msgid "Default value is No, but it is always disabled on hover type gradient, prominent_plain and prominent_blur (Also disabled on subtle_vertical, image_subtle_rotate_zoom and image_text_zoom if icons are used)"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:462
+msgid "Prev/Next navigation"
+msgstr ""
+
+#: \modules\post-types\portfolio\shortcodes\portfolio-slider.php:816
+#: \modules\shortcodes\shortcodes.php:3944
+#: \modules\shortcodes\shortcodes.php:4290
+msgid "In "
+msgstr ""
+
+#: \modules\post-types\slider\shortcodes\slider.php:2093
+msgid "Sorry, no slides matched your criteria."
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:48
+#: \modules\post-types\slider\slider-register.php:49
+msgid "Select Slider"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:50
+msgid "Slides"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:51
+#: \modules\post-types\slider\slider-register.php:54
+msgid "Add New Slide"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:52
+msgid "Slide"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:53
+msgid "New Slide"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:55
+msgid "Edit Slide"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:77
+msgid "Search Sliders"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:78
+msgid "All Sliders"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:79
+msgid "Parent Slider"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:80
+msgid "Parent Slider:"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:81
+msgid "Edit Slider"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:82
+msgid "Update Slider"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:83
+msgid "Add New Slider"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:84
+msgid "New Slider Name"
+msgstr ""
+
+#: \modules\post-types\slider\slider-register.php:85
+msgid "Sliders"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:10
+msgid "Effect on header (dark/light style)"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:21
+msgid "Show prev/next thumbs (except for side menu or passepartout)"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:33
+msgid "Show slide number"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:45
+msgid "Parallax effect"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:56
+msgid "Breakpoint Coefficients 1 (values: 0-1, default value: 1)"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:60
+#: \modules\post-types\slider\tax-custom-fields.php:90
+#: \modules\post-types\slider\tax-custom-fields.php:120
+#: \modules\post-types\slider\tax-custom-fields.php:150
+#: \modules\post-types\slider\tax-custom-fields.php:180
+#: \modules\post-types\slider\tax-custom-fields.php:210
+#: \modules\post-types\slider\tax-custom-fields.php:240
+msgid "Graphic"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:68
+#: \modules\post-types\slider\tax-custom-fields.php:98
+#: \modules\post-types\slider\tax-custom-fields.php:128
+#: \modules\post-types\slider\tax-custom-fields.php:158
+#: \modules\post-types\slider\tax-custom-fields.php:188
+#: \modules\post-types\slider\tax-custom-fields.php:218
+#: \modules\post-types\slider\tax-custom-fields.php:248
+msgid "Subtitle"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:72
+#: \modules\post-types\slider\tax-custom-fields.php:102
+#: \modules\post-types\slider\tax-custom-fields.php:132
+#: \modules\post-types\slider\tax-custom-fields.php:162
+#: \modules\post-types\slider\tax-custom-fields.php:192
+#: \modules\post-types\slider\tax-custom-fields.php:222
+#: \modules\post-types\slider\tax-custom-fields.php:252
+msgid "Text"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:76
+#: \modules\post-types\slider\tax-custom-fields.php:106
+#: \modules\post-types\slider\tax-custom-fields.php:136
+#: \modules\post-types\slider\tax-custom-fields.php:166
+#: \modules\post-types\slider\tax-custom-fields.php:196
+#: \modules\post-types\slider\tax-custom-fields.php:226
+#: \modules\post-types\slider\tax-custom-fields.php:256
+msgid "Button"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:81
+msgid "screen width > 1600px for 'set1' and 'set2'"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:86
+msgid "Breakpoint Coefficients 2 (values: 0-1, default value: 1)"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:111
+msgid "screen width = [1200px,1600px] for 'set1', screen width = [1300px,1600px] for 'set2'"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:116
+msgid "Breakpoint Coefficients 3 (values: 0-1, default value: 0.8)"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:141
+msgid "screen width = [900px,1200px] for 'set1', screen width = [1000px,1300px] for 'set2'"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:146
+msgid "Breakpoint Coefficients 4 (values: 0-1, default value: 0.7)"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:171
+msgid "screen width = [650px,900px] for 'set1', screen width = [768px,1000px] for 'set2'"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:176
+msgid "Breakpoint Coefficients 5 (values: 0-1, default value: 0.6)"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:201
+msgid "screen width = [500px,650px] for 'set1', screen width = [567px,768px] for 'set2'"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:206
+msgid "Breakpoint Coefficients 6 (values: 0-1, default value: 0.5)"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:231
+msgid "screen width = [320px,500px] for 'set1', screen width = [320px,567px] for 'set2'"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:236
+msgid "Breakpoint Coefficients 7 (values: 0-1, default value: 0.4)"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:261
+msgid "screen width < 320px for 'set1' and 'set2'"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:266
+msgid "Slider shortcode"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:270
+msgid "Use this shortcode to insert it on page"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:301
+msgid "Shortcode"
+msgstr ""
+
+#: \modules\post-types\slider\tax-custom-fields.php:304
+msgid "Posts"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:42
+#: \modules\post-types\testimonials\testimonials-register.php:49
+msgid "Testimonials"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:53
+msgid "Type"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:79
+msgid "Number of Testimonials"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:88
+msgid "Icon Font Size"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:97
+msgid "Icon Color"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:133
+msgid "Show Title Separator"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:161
+msgid "Separator Width"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:169
+msgid "Separator Height"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:177
+msgid "Text Align"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:198
+msgid "Text Color"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:205
+msgid "Text Font Family"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:212
+msgid "Text Font Size"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:219
+msgid "Text Line Height (px)"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:226
+msgid "Text Font Style"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:230
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:355
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:412
+msgid "Normal"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:231
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:356
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:413
+msgid "Italic"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:239
+msgid "Text Font Weigth"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:243
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:334
+msgid "Thin 100"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:244
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:335
+msgid "Extra-Light 200"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:245
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:336
+msgid "Light 300"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:246
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:337
+msgid "Regular 400"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:247
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:338
+msgid "Medium 500"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:248
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:339
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:249
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:340
+msgid "Bold 700"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:250
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:341
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:251
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:342
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:259
+msgid "Text Letter spacing (px)"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:266
+msgid "Text Top Padding"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:273
+msgid "Text Bottom Padding"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:280
+msgid "Show Author"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:292
+msgid "Author Position"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:295
+msgid "Below Text"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:296
+msgid "Above Text"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:298
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:385
+msgid "This option does not work when Carousel type is selected."
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:306
+msgid "Author Text Font Family"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:314
+msgid "Author Text Color"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:322
+msgid "Author Font Size (px)"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:330
+msgid "Author Font Weigth"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:351
+msgid "Author Font Style"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:365
+msgid "Show Author Job Position"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:378
+msgid "Job Position Placement"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:381
+msgid "In line with name"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:382
+msgid "Below name"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:392
+msgid "Job Color"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:400
+msgid "Job Font size (px)"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:408
+msgid "Job Font style"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:422
+msgid "Show Image"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:441
+msgid "Choose Navigation Type"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:444
+msgid "None"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:445
+msgid "Arrows"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:446
+msgid "Buttons"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:461
+msgid "Enable outer border around active button"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:479
+msgid "Enable dark navigation"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:497
+msgid "Auto rotate slides"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:502
+msgid "10"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:503
+msgid "15"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:504
+msgid "Disable"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:519
+msgid "Animation speed"
+msgstr ""
+
+#: \modules\post-types\testimonials\shortcodes\testimonials.php:522
+msgid "Speed of slide animation in miliseconds"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:50
+msgid "Testimonial"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:51
+msgid "New Testimonial"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:52
+msgid "Add New Testimonial"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:53
+msgid "Edit Testimonial"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:75
+msgid "Search Testimonials Categories"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:76
+msgid "All Testimonials Categories"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:77
+msgid "Parent Testimonial Category"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:78
+msgid "Parent Testimonial Category:"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:79
+msgid "Edit Testimonials Category"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:80
+msgid "Update Testimonials Category"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:81
+msgid "Add New Testimonials Category"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:82
+msgid "New Testimonials Category Name"
+msgstr ""
+
+#: \modules\post-types\testimonials\testimonials-register.php:83
+msgid "Testimonials Categories"
+msgstr ""
+
+#: \modules\qode-like.php:78
+#: \modules\qode-like.php:96
+msgid "Like"
+msgstr ""
+
+#: \modules\qode-like.php:78
+#: \modules\qode-like.php:96
+msgid "!"
+msgstr ""
+
+#: \modules\qode-like.php:115
+#: \modules\qode-like.php:126
+#: \modules\qode-like.php:137
+msgid "Like this"
+msgstr ""
+
+#: \modules\qode-like.php:118
+msgid "You already liked this!"
+msgstr ""
+
+#: \modules\qode-like.php:129
+#: \modules\qode-like.php:140
+msgid "You already like this!"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:251
+#: \modules\shortcodes\shortcodes.php:2114
+#: \modules\shortcodes\shortcodes.php:2119
+#: \modules\shortcodes\shortcodes.php:4855
+msgid "Custom Image"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:3710
+#: \modules\shortcodes\shortcodes.php:3806
+#: \modules\shortcodes\shortcodes.php:4069
+#: \modules\shortcodes\shortcodes.php:4567
+#: \modules\shortcodes\shortcodes.php:8351
+msgid "in "
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:3719
+#: \modules\shortcodes\shortcodes.php:3817
+#: \modules\shortcodes\shortcodes.php:3955
+#: \modules\shortcodes\shortcodes.php:4080
+#: \modules\shortcodes\shortcodes.php:4189
+#: \modules\shortcodes\shortcodes.php:4427
+#: \modules\shortcodes\shortcodes.php:4578
+msgid "by"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:3728
+#: \modules\shortcodes\shortcodes.php:3786
+#: \modules\shortcodes\shortcodes.php:3924
+#: \modules\shortcodes\shortcodes.php:4049
+#: \modules\shortcodes\shortcodes.php:4161
+#: \modules\shortcodes\shortcodes.php:4263
+#: \modules\shortcodes\shortcodes.php:4445
+#: \modules\shortcodes\shortcodes.php:4547
+#: \modules\shortcodes\shortcodes.php:8625
+#: \modules\shortcodes\shortcodes.php:8680
+msgid "No comment"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:3731
+#: \modules\shortcodes\shortcodes.php:3789
+#: \modules\shortcodes\shortcodes.php:3927
+#: \modules\shortcodes\shortcodes.php:4052
+#: \modules\shortcodes\shortcodes.php:4164
+#: \modules\shortcodes\shortcodes.php:4266
+#: \modules\shortcodes\shortcodes.php:4448
+#: \modules\shortcodes\shortcodes.php:4550
+#: \modules\shortcodes\shortcodes.php:8628
+#: \modules\shortcodes\shortcodes.php:8683
+msgid "Comment"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:3734
+#: \modules\shortcodes\shortcodes.php:3792
+#: \modules\shortcodes\shortcodes.php:3930
+#: \modules\shortcodes\shortcodes.php:4055
+#: \modules\shortcodes\shortcodes.php:4167
+#: \modules\shortcodes\shortcodes.php:4269
+#: \modules\shortcodes\shortcodes.php:4451
+#: \modules\shortcodes\shortcodes.php:4553
+#: \modules\shortcodes\shortcodes.php:8631
+#: \modules\shortcodes\shortcodes.php:8686
+msgid "Comments"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:4512
+msgid "In"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:5256
+#: \modules\shortcodes\shortcodes.php:5314
+msgid "Insert valid Pie Chart data"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:5966
+msgid "Share"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:5983
+#: \modules\shortcodes\shortcodes.php:6000
+#: \modules\shortcodes\shortcodes.php:6011
+#: \modules\shortcodes\shortcodes.php:6022
+#: \modules\shortcodes\shortcodes.php:6033
+#: \modules\shortcodes\shortcodes.php:6045
+#: \modules\shortcodes\shortcodes.php:6057
+#: \modules\shortcodes\shortcodes.php:6140
+#: \modules\shortcodes\shortcodes.php:6157
+#: \modules\shortcodes\shortcodes.php:6169
+#: \modules\shortcodes\shortcodes.php:6181
+#: \modules\shortcodes\shortcodes.php:6193
+#: \modules\shortcodes\shortcodes.php:6206
+#: \modules\shortcodes\shortcodes.php:6219
+msgid "Social Share Icon"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:6151
+#: \modules\shortcodes\shortcodes.php:6154
+msgid "Share on Twitter"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:6167
+msgid "Share on Google+"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:6179
+msgid "Share on LinkedIn"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:6191
+msgid "Share on Tumblr"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:6204
+msgid "Share on Pinterest"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:6217
+msgid "Share on VK"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:6508
+#: \modules\shortcodes\shortcodes.php:6667
+msgid "team_image"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:6609
+#: \modules\shortcodes\shortcodes.php:8648
+#: \modules\shortcodes\shortcodes.php:8706
+msgid "Read More"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:8108
+#: \modules\shortcodes\shortcodes.php:8111
+msgid "Custom Icon"
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:8347
+msgid "by "
+msgstr ""
+
+#: \modules\shortcodes\shortcodes.php:8923
+msgid "Image"
+msgstr ""
